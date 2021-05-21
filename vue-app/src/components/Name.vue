@@ -1,5 +1,5 @@
 <template>
-  <a href="#" @click.prevent="change">Clique para mudar de nome</a>
+  <a href="#" @click.prevent="change" class="text-blue-500">Clique para mudar de nome</a>
   <h2>Meu nome é {{ name }}</h2>
 </template>
 
